@@ -7,7 +7,7 @@ function Feature({ header, text, icon }) {
   return (
     <div className='feature'>
       <SVGIcon cName='feature__icon' iconName={icon} />
-      <HeadingFour>{header}</HeadingFour>
+      <HeadingFour type='dark'>{header}</HeadingFour>
       <p className='feature__text'>{text}</p>
     </div>
   );
