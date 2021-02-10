@@ -3,7 +3,7 @@ import React from 'react'
 function Sidebar() {
   return (
     <div className='sidebar'>
-      SIDEBAR
+      <button className='nav-btn'></button>
     </div>
   )
 }
