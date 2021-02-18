@@ -4,7 +4,8 @@ import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Realtors from './components/Realtors';
 import Features from './components/Features';
-import Story from './components/Story';
+import StoryPictures from './components/StoryPictures';
+import StoryContent from './components/StoryContent';
 import Homes from './components/Homes';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
@@ -16,7 +17,8 @@ function App() {
       <Header />
       <Realtors />
       <Features />
-      <Story />
+      <StoryPictures />
+      <StoryContent />
       <Homes />
       <Gallery />
       <Footer />
@@ -25,3 +27,4 @@ function App() {
 }
 
 export default App;
+
